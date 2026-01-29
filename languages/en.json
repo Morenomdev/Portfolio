@@ -1,0 +1,135 @@
+{
+  "en": {
+    "meta": {
+      "title": "Jesus Moreno - Personal Portfolio",
+      "description": "Personal portfolio of Jesus Moreno. Software Developer."
+    },
+    "header": {
+      "name": "Jesus Moreno",
+      "tagline": "Robotics Engineer"
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "contact": "Contact",
+      "lang_en": "EN",
+      "lang_es": "ES"
+    },
+    "hero": {
+      "title": "Hi! I'm Jesus Moreno",
+      "subtitle": "Robotics Engineer",
+      "description": "I like software development and programming in general.",
+      "cta_projects": "See My Projects",
+      "cta_contact": "Contact Me",
+      "stats": {
+        "months_number": "6+",
+        "months_label": "Months learning",
+        "projects_number": "3+",
+        "projects_label": "Completed projects",
+        "tech_number": "5+",
+        "tech_label": "Technologies"
+      }
+    },
+    "about": {
+      "title": "My Engineering Experience",
+      "intro_1": "I'm a Robotics Engineer with more than 2 years of industry experience. I'm currently learning JS, HTML, and CSS because I've always loved programming.",
+      "intro_2": "I graduated in 2023. My first job was as an Automation Engineer. My main tasks were:",
+      "experience": {
+        "plc": "PLC Programming",
+        "mechanical_cad": "Mechanical CAD Design",
+        "hmi": "HMI",
+        "diagnostic": "Diagnostics",
+        "maintenance": "Maintenance",
+        "plc_beckhoff": "Beckhoff (Structured Text - Ladder)",
+        "plc_siemens": "Siemens (Ladder)",
+        "plc_rexroth": "Rexroth (Structured Text - Ladder)",
+        "diagnostic_desc": "Fault detection and process troubleshooting",
+        "maintenance_desc_2": "General maintenance for industrial machines, overhead cranes, and forklifts"
+      },
+      "values": {
+        "title": "My Values",
+        "dedication_title": "Dedication",
+        "dedication_desc": "Committed to daily learning",
+        "curiosity_title": "Curiosity",
+        "curiosity_desc": "Always exploring new things",
+        "creativity_title": "Creativity",
+        "creativity_desc": "Looking for innovative solutions"
+      }
+    },
+    "projects": {
+      "title": "My Practice Projects",
+      "description": "Each project represents my progress learning web development—from simple pages to this full portfolio.",
+      "project_links": {
+        "view_project": "View project",
+        "view_code": "View code"
+      },
+      "p1": {
+        "title": "Google Clone",
+        "description": "Project complete using HTML and CSS. A simply Google clone page.",
+        "subtitle": "What I learned:",
+        "learnings": [
+          "Semantic HTML structure",
+          "Box Model and basic layout",
+          "Core CSS styling",
+          "Basic accessibility principles",
+          "Intro to responsive design"
+        ]
+      },
+      "p2": {
+        "badge": "Featured",
+        "title": "Personal Portfolio",
+        "description": "This very portfolio you’re viewing. My most complete project where I apply everything I learned in HTML, CSS and JavaScript. Deployed on Vercel.",
+        "subtitle": "Features:",
+        "learnings": [
+          "Semantic and accessible HTML",
+          "Modern, organized CSS",
+          "Responsive design",
+          "BEM methodology",
+          "Performance optimization",
+          "Deployed on Vercel"
+        ]
+      },
+      "p3": {
+        "title": "Calculator",
+        "description": "Simply calculator with responsive design and deployed on Netlify.",
+        "subtitle": "Focus:",
+        "learnings": [
+          "Responsive design",
+          "Proper spacing",
+          "Deploy",
+          "Accessible colors",
+          "Content layout"
+        ]
+      },
+      "p4": {
+        "title": "Pokedex",
+        "description": "Pokedex to show the first 151 Pokemon with PokeAPI.",
+        "subtitle": "Focus:",
+        "learnings": [
+          "Responsive design",
+          "Proper spacing",
+          "Deployed on vercel",
+          "Accessible colors"
+        ]
+      }
+    },
+    "contact": {
+      "title": "Would you like to connect?",
+      "description": "I'm always looking to learn from other developers, share experiences, and maybe collaborate on interesting projects.",
+      "email_title": "Email",
+      "github_title": "GitHub",
+      "linkedin_title": "LinkedIn",
+      "download_cv": "Download CV (PDF)"
+    },
+    "footer": {
+      "nav_home": "Home",
+      "nav_about": "About me",
+      "nav_projects": "Projects",
+      "nav_skills": "Skills",
+      "nav_contact": "Contact",
+      "copyright": "© 2025 Jesus Moreno - Personal Portfolio"
+    }
+  }
+}

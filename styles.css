@@ -1,19 +1,18 @@
-
 /* ===========================================
      VARIABLES CSS
      =========================================== */
 :root {
-  /* Colores principales - Paleta más vibrante y clara */
-  --color-primary: #7286D3;
-  --color-primary-dark: #1C4D8D; 
-  --color-primary-darker: #0F2854; 
-  --color-primary-light: #4988C4; 
-  --color-primary-lighter: #BDE8F5;
+  /* Colores principales */
+  --color-primary: #7286d3;
+  --color-primary-dark: #1c4d8d;
+  --color-primary-darker: #0f2854;
+  --color-primary-light: #4988c4;
+  --color-primary-lighter: #bde8f5;
 
   /* Colores secundarios */
-  --color-secondary: #7286D3; 
-  --color-secondary-dark: #8EA7E9; 
-  --color-secondary-light: #E5E0FF; 
+  --color-secondary: #7286d3;
+  --color-secondary-dark: #8ea7e9;
+  --color-secondary-light: #e5e0ff;
 
   /* Colores neutros - Más claros para mejor contraste */
   --color-dark: #1f2937; /* Gris muy oscuro (no negro puro) */
@@ -22,39 +21,35 @@
   --color-gray-light: #9ca3af; /* Gris claro */
   --color-gray-lighter: #e5e7eb; /* Gris muy claro */
   --color-light: #f9fafb; /* Casi blanco */
-  --color-lighter: #FFF2F2; /* Crema muy claro */
+  --color-lighter: #fff2f2; /* Crema muy claro */
   --color-white: #ffffff; /* Blanco puro */
 
   /* Colores de acento */
-  --color-accent: #3C467B;
-  --color-accent-light: #6E8CFB;
+  --color-accent: #3c467b;
+  --color-accent-light: #6e8cfb;
 
   /* Sombras */
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-md:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 
-  /* Degradados - Más vibrantes y luminosos */
+  /* Degradados */
   --gradient-primary: linear-gradient(
     135deg,
-    #7286D3 0%,
-    #8EA7E9 100%
-  ); /* Púrpura a cyan */
+    #7286d3 0%,
+    #8ea7e9 100%
+  ); /* Purpura a cyan */
   --gradient-hero: linear-gradient(
     135deg,
-    #0F2854 0%,
-    #1C4D8D 50%,
-    #BDE8F5 100%
-  ); /* Degradado tricolor */
-  --gradient-accent: linear-gradient(
-    135deg,
-    #6E8CFB 0%,
-    #3C467B 100%
-  ); /* Dorado */
+    #0f2854 0%,
+    #1c4d8d 50%,
+    #bde8f5 100%
+  );
+  --gradient-accent: linear-gradient(135deg, #6e8cfb 0%, #3c467b 100%);
 
   /* Border radius */
   --radius-sm: 0.25rem;
@@ -73,7 +68,11 @@
 
 body {
   /*  Google Fonts */
-  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  font-family:
+    'Inter',
+    system-ui,
+    -apple-system,
+    sans-serif;
   font-size: 16px;
   line-height: 1.7;
   color: #333333;
@@ -90,7 +89,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: 'Playfair Display', Georgia, serif;
   font-weight: 700;
   line-height: 1.2;
   color: #1a1a1a;
@@ -120,7 +119,7 @@ h4 {
   font-size: 1.25rem; /* 20px */
   margin-top: 2rem;
   margin-bottom: 0.75rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
 }
 
@@ -138,12 +137,6 @@ em {
   font-style: italic;
 }
 
-.about__intro,
-.hero__description {
-  font-size: 1.125rem; /* 18px */
-  line-height: 1.8;
-  color: #555555;
-}
 
 /* ===========================================
      ENLACES
@@ -187,6 +180,8 @@ ul {
   padding: 0 20px;
 }
 
+
+
 .header__brand {
   text-align: center;
   margin-bottom: 24px;
@@ -195,7 +190,7 @@ ul {
 .header__name {
   color: #1a1a1a;
   margin-bottom: 8px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 900;
   letter-spacing: -0.03em;
 }
@@ -243,6 +238,29 @@ ul {
   font-weight: 600;
 }
 
+.lang__btn {
+  font-family:
+    'Inter',
+    system-ui,
+    -apple-system,
+    sans-serif;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-md);
+  background: var(--color-light);
+  cursor: pointer;
+}
+.lang__btn:hover {
+  background: var(--color-lighter);
+  cursor: pointer;
+}
+
+.lang__btn.is-active {
+  background: var(--color-primary);
+  color: var(--color-light);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+}
+
 /* ===========================================
      MAIN CONTENT
      =========================================== */
@@ -281,7 +299,7 @@ ul {
   font-size: 1.5rem; /* 24px */
   color: #2563eb;
   margin-bottom: 1.5rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   letter-spacing: -0.01em;
 }
@@ -316,7 +334,7 @@ ul {
   font-weight: 700;
   color: #2563eb;
   margin-bottom: 0.5rem;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   letter-spacing: -0.02em;
 }
 
@@ -341,7 +359,7 @@ ul {
   border: 2px solid transparent;
   cursor: pointer;
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   letter-spacing: 0.02em;
 }
 
@@ -352,8 +370,8 @@ ul {
 }
 
 .button--primary:hover {
-  background-color: #1d4ed8;
-  border-color: #1d4ed8;
+  /* background-color: var(--color-primary-lighter);
+  border-color: #1d4ed8; */
   text-decoration: none;
 }
 
@@ -459,7 +477,6 @@ ul {
   line-height: 1.5;
 }
 
-
 /* ===========================================
      QUOTE
      =========================================== */
@@ -476,7 +493,7 @@ ul {
   color: #333333;
   margin-bottom: 1rem;
   line-height: 1.7;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 400;
 }
 
@@ -485,7 +502,7 @@ ul {
   font-size: 0.875rem;
   display: block;
   text-align: right;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   letter-spacing: 0.05em;
 }
@@ -602,7 +619,7 @@ ul {
 .project__title {
   color: #1a1a1a;
   margin-bottom: 1rem;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .project__description {
@@ -617,7 +634,7 @@ ul {
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
   font-weight: 600;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .project__learnings {
@@ -843,18 +860,16 @@ ul {
 }
 
 .footer__copyright {
-  color: #9ca3af;
+  color: var(--color-light);
   margin-bottom: 0.5rem;
   font-size: 0.875rem;
 }
 
 .footer__credits {
-  color: #9ca3af;
+  color:var(--color-light);
   font-size: 0.875rem;
   line-height: 1.5;
 }
-
-
 
 body {
   color: var(--color-gray-dark);
@@ -890,7 +905,7 @@ a:active {
 }
 
 .hero::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -951,8 +966,8 @@ a:active {
 }
 
 .button--primary:hover {
-  background-color: var(--color-primary-dark);
-  border-color: var(--color-primary-dark);
+  background-color: var(--color-primary-lighter);
+  /* border-color: var(--color-primary-dark); */
 }
 
 .button--secondary {
@@ -992,11 +1007,7 @@ a:active {
      TAGS CON COLORES
      =========================================== */
 .tag {
-  background: linear-gradient(
-    135deg,
-    #ddd6fe 0%,
-    #c4b5fd 100%
-  ); 
+  background: linear-gradient(135deg, #ddd6fe 0%, #c4b5fd 100%);
   color: var(--color-primary-dark);
   border-radius: var(--radius-full);
   box-shadow: var(--shadow-sm);
@@ -1037,7 +1048,6 @@ a:active {
   transform: translateY(-2px);
 }
 
-
 /* ===========================================
      SKILL BARS CON DEGRADADOS
      =========================================== */
@@ -1058,27 +1068,15 @@ a:active {
 }
 
 .skill__progress--html {
-  background: linear-gradient(
-    90deg,
-    #f97316 0%,
-    #fb923c 100%
-  ); 
+  background: linear-gradient(90deg, #f97316 0%, #fb923c 100%);
 }
 
 .skill__progress--css {
-  background: linear-gradient(
-    90deg,
-    #06b6d4 0%,
-    #22d3ee 100%
-  ); 
+  background: linear-gradient(90deg, #06b6d4 0%, #22d3ee 100%);
 }
 
 .skill__progress--js {
-  background: linear-gradient(
-    90deg,
-    #fbbf24 0%,
-    #fde047 100%
-  ); 
+  background: linear-gradient(90deg, #fbbf24 0%, #fde047 100%);
 }
 
 /* ===========================================
@@ -1098,12 +1096,7 @@ a:active {
      CONTACT SECTION
      =========================================== */
 .contact {
-  background: linear-gradient(
-    135deg,
-    #6E8CFB 0%,
-    #636CCB 50%,
-    #50589C 100%
-  ); 
+  background: linear-gradient(135deg, #6e8cfb 0%, #636ccb 50%, #50589c 100%);
 }
 
 .contact__method {
@@ -1148,7 +1141,7 @@ a:active {
      FOOTER CON DEGRADADO
      =========================================== */
 .footer {
-  background: #7286D3;
+  background: #7286d3;
   box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
@@ -1168,11 +1161,7 @@ a:active {
 }
 
 .projects {
-  background: linear-gradient(
-    135deg,
-    #f9fafb 0%,
-    #ede9fe 100%
-  ); 
+  background: linear-gradient(135deg, #f9fafb 0%, #ede9fe 100%);
 }
 
 /* 
@@ -1259,7 +1248,6 @@ a:active {
   max-width: 800px;
   margin: 0 auto;
 }
-
 
 .values__list {
   display: grid;
@@ -1475,6 +1463,17 @@ h2 {
   margin-bottom: 0;
 }
 
+header.header-sticky {
+  position: fixed;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  background-color: var(--color-white);
+  z-index: 2000;
+  transition: 0.5s ease-in-out 0.5s;
+  /* align-items: center; */
+}
+
 .header__container,
 .hero__container,
 .about__container,
@@ -1496,7 +1495,6 @@ h2 {
 /* ===========================================
      MEDIA QUERIES
      =========================================== */
-
 
 /* ===========================================
      TABLET (768px)
@@ -1646,7 +1644,6 @@ h2 {
     font-size: 1.125rem; /* 18px */
   }
 
-
   /* PROJECTS MÓVIL */
   .project {
     padding: 1.5rem;
@@ -1779,8 +1776,8 @@ h2 {
     text-decoration: underline;
   }
 
-  a[href^="http"]:after {
-    content: " (" attr(href) ")";
+  a[href^='http']:after {
+    content: ' (' attr(href) ')';
   }
 
   .project,
@@ -1944,7 +1941,8 @@ button:hover,
 }
 
 @keyframes blinkl {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 1;
   }
   50% {
@@ -2010,7 +2008,7 @@ button:hover,
 }
 
 .hero__title::after {
-  content: "|";
+  content: '|';
   position: absolute;
   right: -10px;
   animation: blinkl 2s step-end infinite;
@@ -2062,7 +2060,7 @@ button:hover,
 }
 
 .nav__link::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -2090,7 +2088,7 @@ button:hover,
 }
 
 .button::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -2099,7 +2097,9 @@ button:hover,
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.3);
   transform: translate(-50%, -50%);
-  transition: width 0.6s, height 0.6s;
+  transition:
+    width 0.6s,
+    height 0.6s;
 }
 
 .button:active::after {
@@ -2138,7 +2138,9 @@ button:hover,
 
 .project:hover {
   transform: translateY(-8px) rotateX(2deg);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.1),
+    0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .project__badge {
@@ -2179,7 +2181,8 @@ button:hover,
 
 .values__item:hover {
   transform: translateY(-5px) scale(1.02);
-  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.1),
+  box-shadow:
+    0 10px 30px rgba(37, 99, 235, 0.1),
     0 0 0 1px rgba(37, 99, 235, 0.1);
 }
 
@@ -2216,7 +2219,7 @@ button:hover,
 }
 
 .skill__progress::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: -100%;
@@ -2269,7 +2272,9 @@ button:hover,
 
 .contact__method:hover {
   transform: translateY(-10px) rotateX(5deg);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(37, 99, 235, 0.1);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.15),
+    0 0 0 1px rgba(37, 99, 235, 0.1);
 }
 
 .contact__method-title {

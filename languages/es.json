@@ -1,0 +1,136 @@
+{
+  "es": {
+    "meta": {
+      "title": "Jesus Moreno - Portfolio Personal",
+      "description": "Portfolio personal de Jesus Moreno. Desarrollador de Software."
+    },
+    "header": {
+      "name": "Jesus Moreno",
+      "tagline": "Ingeniero en Robótica"
+    },
+    "nav": {
+      "home": "Inicio",
+      "about": "Sobre mí",
+      "projects": "Proyectos",
+      "skills": "Habilidades",
+      "contact": "Contacto",
+      "lang_en": "EN",
+      "lang_es": "ES"
+    },
+    "hero": {
+      "title": "¡Hola! Soy Jesus Moreno",
+      "subtitle": "Ingeniero en Robótica",
+      "description": "Me gusta el desarrollo de software y la programacion en general.",
+      "cta_projects": "Ver Mis Proyectos",
+      "cta_contact": "Contáctame",
+      "stats": {
+        "months_number": "6+",
+        "months_label": "Meses aprendiendo",
+        "projects_number": "3+",
+        "projects_label": "Proyectos completados",
+        "tech_number": "5+",
+        "tech_label": "Tecnologías"
+      }
+    },
+    "about": {
+      "title": "Mi Experiencia en Ingenieria",
+      "intro_1": "Soy Ingeniero en Robotica con mas de 2 años de experiencia en la industria, actualmente estoy aprendiendo JS, HTML y CSS porque siempre me encanto la programación.",
+      "intro_2": "Egresado en 2023 mi primer trabajo fue de Ingeniero en Automatización, mis tareas principales eran:",
+      "experience": {
+        "plc": "Programación PLC",
+        "mechanical_cad": "Diseño Mecánico CAD",
+        "hmi": "HMI",
+        "diagnostic": "Diagnostico",
+        "maintenance": "Mantenimiento",
+        "plc_beckhoff": "Beckhoff (Structured Text - Ladder)",
+        "plc_siemens": "Siemens (Ladder)",
+        "plc_rexroth": "Rexroth (Structured Text - Ladder)",
+        "maintenance_desc": "Mela",
+        "diagnostic_desc": "Detección y soluciones de fallas en procesos",
+        "maintenance_desc_2": "Mantenimiento general a maquinas industriales, gruas viajeras y montacargas"
+      },
+      "values": {
+        "title": "Mis Valores",
+        "dedication_title": "Dedicación",
+        "dedication_desc": "Comprometido con mi aprendizaje diario",
+        "curiosity_title": "Curiosidad",
+        "curiosity_desc": "Siempre explorando nuevas cosas",
+        "creativity_title": "Creatividad",
+        "creativity_desc": "Buscando soluciones innovadoras"
+      }
+    },
+    "projects": {
+      "title": "Mis Proyectos de Práctica",
+      "description": "Cada proyecto representa mi progreso aprendiendo desarrollo web. Desde páginas simples hasta este portfolio completo.",
+      "project_links": {
+        "view_project": "Ver proyecto",
+        "view_code": "Ver código"
+      },
+      "p1": {
+        "title": "Google Clone",
+        "description": "Proyecto completo usando HTML y CSS. Una página clon simple de Google.",
+        "subtitle": "Lo que aprendí:",
+        "learnings": [
+          "Estructura semántica de HTML",
+          "Box Model y layout básico",
+          "Estilos CSS fundamentales",
+          "Principios básicos de accesibilidad",
+          "Introducción al diseño responsivo"
+        ]
+      },
+      "p2": {
+        "badge": "Destacado",
+        "title": "Portfolio Personal",
+        "description": "Este mismo portfolio que estás viendo. Mi proyecto más completo donde aplico todo lo aprendido en HTML, CSS y JavaScript.",
+        "subtitle": "Características:",
+        "learnings": [
+          "HTML semántico y accesible",
+          "CSS moderno y organizado",
+          "Diseño responsivo",
+          "Metodología BEM",
+          "Optimización de rendimiento",
+          "Desplegado en Vercel"
+        ]
+      },
+      "p3": {
+        "title": "Calculadora",
+        "description": "Calculadora simple con diseño responsivo y desplegada en Netlify.",
+        "subtitle": "Enfoque:",
+        "learnings": [
+          "Diseño responsivo",
+          "Espaciado correcto",
+          "Deploys",
+          "Colores accesibles",
+          "Layout de contenido"
+        ]
+      },
+      "p4": {
+        "title": "Pokedex",
+        "description": "Pokedex para mostrar los primeros 151 Pokemon  con PokeAPI.",
+        "subtitle": "Enfoque:",
+        "learnings": [
+          "Diseño responsivo",
+          "Espaciado correcto",
+          "Desplegada en Vercel",
+          "Colores accesibles"
+        ]
+      }
+    },
+    "contact": {
+      "title": "¿Te gustaría conectar?",
+      "description": "Siempre estoy buscando aprender de otros desarrolladores, compartir experiencias y tal vez colaborar en proyectos interesantes.",
+      "email_title": "Email",
+      "github_title": "GitHub",
+      "linkedin_title": "LinkedIn",
+      "download_cv": "Descargar CV (PDF)"
+    },
+    "footer": {
+      "nav_home": "Inicio",
+      "nav_about": "Sobre mí",
+      "nav_projects": "Proyectos",
+      "nav_skills": "Habilidades",
+      "nav_contact": "Contacto",
+      "copyright": "© 2025 Jesus Moreno - Portfolio Personal"
+    }
+  }
+}

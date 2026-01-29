@@ -1,20 +1,20 @@
 # Hola, soy Jesus Moreno 👋
 
-### 🤖 Ingeniero en Robótica | 🚀 Transicionando al Mundo Tech
+### Ingeniero en Robótica
 
 ¡Bienvenido a mi perfil de GitHub! Soy un Ingeniero en Robótica con **más de 2 años de experiencia** en la industria, especializado en la integración de hardware y software. Actualmente, estoy expandiendo mis horizontes y aplicando mi lógica de ingeniería para crear soluciones de software escalables y eficientes.
 
 ---
 
-### 🌟 Sobre mí
+###  Sobre mí
 
-* 🔭 **Actualmente trabajando en:** El despliegue de mi portafolio personal y proyectos.
-* 💼 **Experiencia:** Automatización, lógica de control y sistemas embebidos.
-* 🌱 **Aprendiendo:** Cloud Computing, Arquitectura de Microservicios.
+*  **Actualmente trabajando en:** El despliegue de mi portafolio personal y proyectos.
+*  **Experiencia:** Automatización, lógica de control y sistemas embebidos.
+*  **Aprendiendo:** Cloud Computing, Arquitectura de Microservicios.
 
 ---
 
-### 🛠️ Tech Stack & Herramientas
+###  Tech Stack & Herramientas
 
 **Lenguajes:**
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
@@ -36,21 +36,20 @@
 
 ---
 
-### 🌐 ¡Visita mi Sitio Web!
+###  ¡Visita mi Sitio Web!
 
 Acabo de desplegar mi sitio personal donde cuento más sobre mis proyectos y mi trayectoria.
 
-👉 **[ www.jesusmoreno.com ](https://jesusmoreno.com)**
+ **[ https://jesusmoreno.vercel.app/ ](https://jesusmoreno.vercel.app/)**
 
 ---
 
-### 🖥️ Project Preview
+###  Project Preview
 
-[![Portfolio Preview](./img/preview.png)](https://jesusmoreno.com)
-*Click on the image to visit the live site*
+[![Portfolio Preview](./img/preview.png)](https://jesusmoreno.vercel.app/)
 ---
 
-### 📫 Conectemos
+###  Conectemos
 
 * 💼 [LinkedIn](https://www.linkedin.com/in/jmorenodv/)
 * 📧 [Email](mailto:eduardomoreno2038@gmail.com)

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jesus Moreno - Portfolio Personal</title>
+    <title data-i18n="meta.title">Jesus Moreno - Portfolio Personal</title>
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <meta
       name="description"
@@ -24,27 +24,39 @@
     <header class="header">
       <div class="header__container">
         <div class="header__brand">
-          <h1 class="header__name">Jesus Moreno</h1>
-          <p class="header__tagline">Ingeniero en Robótica</p>
+          <h1 class="header__name" data-i18n="header.name">Jesus Moreno</h1>
+          <p class="header__tagline" data-i18n="header.tagline">Ingeniero en Robótica</p>
         </div>
 
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#inicio" class="nav__link nav__link--active">Inicio</a>
+              <a href="#inicio" class="nav__link nav__link--active" data-i18n="nav.home">Inicio</a>
             </li>
             <li class="nav__item">
-              <a href="#sobre-mi" class="nav__link">Sobre mí</a>
+              <a href="#sobre-mi" class="nav__link" data-i18n="nav.about">Sobre mí</a>
             </li>
             <li class="nav__item">
-              <a href="#proyectos" class="nav__link">Proyectos</a>
+              <a href="#proyectos" class="nav__link" data-i18n="nav.projects">Proyectos</a>
             </li>
             <!-- <li class="nav__item">
-              <a href="#habilidades" class="nav__link">Habilidades</a>
+              <a href="#habilidades" class="nav__link" data-i18n="nav.skills">Habilidades</a>
             </li> -->
             <li class="nav__item">
-              <a href="#contacto" class="nav__link">Contacto</a>
+              <a href="#contacto" class="nav__link" data-i18n="nav.contact">Contacto</a>
             </li>
+            <ul class="nav__lang">
+              <li class="nav__item">
+                <button class="lang__btn button" data-lang="en" aria-pressed="false">
+                  <span data-i18n="nav.lang_en">EN</span>
+                </button>
+              </li>
+              <li class="nav__item">
+                <button class="lang__btn button is-active" data-lang="es" aria-pressed="true">
+                  <span data-i18n="nav.lang_es">ES</span>
+                </button>
+              </li>
+            </ul>
           </ul>
         </nav>
       </div>
@@ -55,31 +67,31 @@
       <!-- Hero Section -->
       <section class="hero" id="inicio">
         <div class="hero__container">
-          <h2 class="hero__title">¡Hola! Soy Jesus Moreno</h2>
-          <p class="hero__subtitle">Ingeniero en Robótica</p>
-          <p class="hero__description">
+          <h2 class="hero__title" data-i18n="hero.title">¡Hola! Soy Jesus Moreno</h2>
+          <p class="hero__subtitle" data-i18n="hero.subtitle">Ingeniero en Robótica</p>
+          <p class="hero__description" data-i18n="hero.description">
             Me gusta el desarrollo de software y la programacion en general.
           </p>
 
           <div class="hero__actions">
-            <a href="#proyectos" class="button button--primary"
+            <a href="#proyectos" class="button button--primary" data-i18n="hero.cta_projects"
               >Ver Mis Proyectos</a
             >
-            <a href="#contacto" class="button button--secondary">Contáctame</a>
+            <a href="#contacto" class="button button--secondary" data-i18n="hero.cta_contact">Contáctame</a>
           </div>
 
           <div class="hero__stats">
             <div class="stat">
-              <span class="stat__number">6+</span>
-              <span class="stat__label">Meses aprendiendo</span>
+              <span class="stat__number" data-i18n="hero.stats.months_number">6+</span>
+              <span class="stat__label" data-i18n="hero.stats.months_label">Meses aprendiendo</span>
             </div>
             <div class="stat">
-              <span class="stat__number">3+</span>
-              <span class="stat__label">Proyectos completados</span>
+              <span class="stat__number" data-i18n="hero.stats.projects_number">3+</span>
+              <span class="stat__label" data-i18n="hero.stats.projects_label">Proyectos completados</span>
             </div>
             <div class="stat">
-              <span class="stat__number">5+</span>
-              <span class="stat__label">Tecnologías</span>
+              <span class="stat__number" data-i18n="hero.stats.tech_number">5+</span>
+              <span class="stat__label" data-i18n="hero.stats.tech_label">Tecnologías</span>
             </div>
           </div>
         </div>
@@ -88,15 +100,15 @@
       <!-- Sobre Mí -->
       <section class="about" id="sobre-mi">
         <div class="about__container">
-          <h2 class="about__title">Mi Experiencia en Ingenieria</h2>
+          <h2 class="about__title" data-i18n="about.title">Mi Experiencia en Ingenieria</h2>
 
-          <p class="about__intro">
+          <p class="about__intro" data-i18n="about.intro_1">
             Soy <strong>Ingeniero en Robotica</strong> con mas de 2 años de
             experiencia en la industria, actualmente estoy aprendiendo JS, HTML
             y CSS porque siempre me encanto la programación.
           </p>
 
-          <p class="about__intro">
+          <p class="about__intro" data-i18n="about.intro_2">
             Egresado en 2023 mi primer trabajo fue de Ingeniero en
             Automatización, mis tareas principales eran:
           </p>
@@ -104,30 +116,30 @@
           <div class="experience">
             <ul class="about__experience">
               <li class="experience__item">
-                <strong>Programación PLC</strong>
-                <span><strong>Beckhoff</strong> (Structured Text - Ladder)</span>
-                <span><strong>Siemens</strong> (Ladder)</span>
-                <span><strong>Rexroth</strong> (Structured Text - Ladder)</span>
+                <strong data-i18n="about.experience.plc">Programación PLC</strong>
+                <span data-i18n="about.experience.plc_beckhoff"><strong>Beckhoff</strong> (Structured Text - Ladder)</span>
+                <span data-i18n="about.experience.plc_siemens"><strong>Siemens</strong> (Ladder)</span>
+                <span data-i18n="about.experience.plc_rexroth"><strong>Rexroth</strong> (Structured Text - Ladder)</span>
               </li>
               <li class="experience__item">
-                <strong>Diseño Mecánico CAD</strong>
+                <strong data-i18n="about.experience.mechanical_cad">Diseño Mecánico CAD</strong>
                 <span>SolidWorks</span>
               </li>
               <li class="experience__item">
-                <strong>HMI</strong>
+                <strong data-i18n="about.experience.hmi">HMI</strong>
                 <span>Siemens</span>
                 <span>Aveva Edge</span>
                 <span>TwinCAT</span>
                 <span></span>
               </li>
               <li class="experience__item">
-                <strong>Diagnostico</strong>
-                <span>Detección y soluciones de fallas en procesos</span>
+                <strong data-i18n="about.experience.diagnostic">Diagnostico</strong>
+                <span data-i18n="about.experience.diagnostic_desc">Detección y soluciones de fallas en procesos</span>
                 <span></span>
               </li>
               <li class="experience__item">
-                <strong>Mantenimiento</strong>
-                <span
+                <strong data-i18n="about.experience.maintenance">Mantenimiento</strong>
+                <span data-i18n="about.experience.maintenance_desc_2"
                   >Mantenimiento general a maquinas industriales, gruas viajeras y
                   montacargas</span
                 >
@@ -137,19 +149,19 @@
           </div>
 
           <div class="values">
-            <h3 class="values__title">Mis Valores</h3>
+            <h3 class="values__title" data-i18n="about.values.title">Mis Valores</h3>
             <ul class="values__list">
               <li class="values__item">
-                <strong>Dedicación</strong>
-                <span>Comprometido con mi aprendizaje diario</span>
+                <strong data-i18n="about.values.dedication_title">Dedicación</strong>
+                <span data-i18n="about.values.dedication_desc">Comprometido con mi aprendizaje diario</span>
               </li>
               <li class="values__item">
-                <strong>Curiosidad</strong>
-                <span>Siempre explorando nuevas cosas</span>
+                <strong data-i18n="about.values.curiosity_title">Curiosidad</strong>
+                <span data-i18n="about.values.curiosity_desc">Siempre explorando nuevas cosas</span>
               </li>
               <li class="values__item">
-                <strong>Creatividad</strong>
-                <span>Buscando soluciones innovadoras</span>
+                <strong data-i18n="about.values.creativity_title">Creatividad</strong>
+                <span data-i18n="about.values.creativity_desc">Buscando soluciones innovadoras</span>
               </li>
             </ul>
           </div>
@@ -159,28 +171,27 @@
       <!-- Proyectos -->
       <section class="projects" id="proyectos">
         <div class="projects__container">
-          <h2 class="projects__title">Mis Proyectos de Práctica</h2>
-          <p class="projects__description">
+          <h2 class="projects__title" data-i18n="projects.title">Mis Proyectos de Práctica</h2>
+          <p class="projects__description" data-i18n="projects.description">
             Cada proyecto representa mi progreso aprendiendo desarrollo web.
             Desde páginas simples hasta este portfolio completo.
           </p>
 
           <div class="projects__grid">
             <article class="project">
-              <h3 class="project__title">Mi Primer Sitio Web</h3>
-              <p class="project__description">
-                Mi primer proyecto completo usando HTML y CSS. Una página simple
-                pero bien estructurada donde apliqué los conceptos básicos
-                aprendidos.
+              <h3 class="project__title" data-i18n="projects.p1.title">Google Clone</h3>
+              <p class="project__description" data-i18n="projects.p1.description">
+                Proyecto completo usando HTML y CSS. Una página clon simple
+                de Google.
               </p>
 
-              <h4 class="project__subtitle">Lo que aprendí:</h4>
+              <h4 class="project__subtitle" data-i18n="projects.p1.subtitle">Lo que aprendí:</h4>
               <ul class="project__learnings">
-                <li>Estructura semántica de HTML</li>
-                <li>Box Model y layout básico</li>
-                <li>Estilos CSS fundamentales</li>
-                <li>Principios básicos de accesibilidad</li>
-                <li>Introducción al diseño responsivo</li>
+                <li data-i18n="projects.p1.learnings.0">Estructura semántica de HTML</li>
+                <li data-i18n="projects.p1.learnings.1">Box Model y layout básico</li>
+                <li data-i18n="projects.p1.learnings.2">Estilos CSS fundamentales</li>
+                <li data-i18n="projects.p1.learnings.3">Principios básicos de accesibilidad</li>
+                <li data-i18n="projects.p1.learnings.4">Introducción al diseño responsivo</li>
               </ul>
 
               <div class="project__technologies">
@@ -189,119 +200,114 @@
               </div>
 
               <div class="project__links">
-                <a href="#" class="project__link">Ver proyecto</a>
-                <a href="#" class="project__link">Ver código</a>
+                <a href="https://googlejesusmoreno.netlify.app/" target="_blank" class="project__link" data-i18n="projects.project_links.view_project">Ver proyecto</a>
+                <a href="https://github.com/Morenomdev/Google-Clone" target="_blank" class="project__link" data-i18n="projects.project_links.view_code">Ver código</a>
               </div>
             </article>
 
             <article class="project project--featured">
-              <span class="project__badge">Destacado</span>
-              <h3 class="project__title">Portfolio Personal</h3>
-              <p class="project__description">
+              <span class="project__badge" data-i18n="projects.p2.badge">Destacado</span>
+              <h3 class="project__title" data-i18n="projects.p2.title">Portfolio Personal</h3>
+              <p class="project__description" data-i18n="projects.p2.description">
                 Este mismo portfolio que estás viendo. Mi proyecto más completo
-                donde aplico todo lo aprendido en HTML y CSS.
+                donde aplico todo lo aprendido en HTML, CSS y JavaScript.
               </p>
 
-              <h4 class="project__subtitle">Características:</h4>
+              <h4 class="project__subtitle" data-i18n="projects.p2.subtitle">Características:</h4>
               <ul class="project__learnings">
-                <li>HTML semántico y accesible</li>
-                <li>CSS moderno y organizado</li>
-                <li>Diseño responsivo</li>
-                <li>Metodología BEM</li>
-                <li>Optimización de rendimiento</li>
+                <li data-i18n="projects.p2.learnings.0">HTML semántico y accesible</li>
+                <li data-i18n="projects.p2.learnings.1">CSS moderno y organizado</li>
+                <li data-i18n="projects.p2.learnings.2">Diseño responsivo</li>
+                <li data-i18n="projects.p2.learnings.3">Metodología BEM</li>
+                <li data-i18n="projects.p2.learnings.4">Optimización de rendimiento</li>
+                <li data-i18n="projects.p2.learnings.5">Desplegado en Vercel</li>
               </ul>
 
               <div class="project__technologies">
                 <span class="tag">HTML5</span>
                 <span class="tag">CSS3</span>
                 <span class="tag">BEM</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Vercel</span>
               </div>
 
               <div class="project__links">
-                <a href="#" class="project__link">Ver proyecto</a>
-                <a href="#" class="project__link">Ver código</a>
+                <a href="#" class="project__link" data-i18n="projects.project_links.view_project">Ver proyecto</a>
+                <a href="https://github.com/Morenomdev/Portfolio" target="_blank" class="project__link" data-i18n="projects.project_links.view_code">Ver código</a>
               </div>
             </article>
 
             <article class="project">
-              <h3 class="project__title">Página de Blog</h3>
-              <p class="project__description">
-                Un blog simple donde practico la tipografía web y la
-                organización de contenido. Enfocado en la legibilidad y la
-                experiencia de lectura.
+              <h3 class="project__title" data-i18n="projects.p3.title">Calculator</h3>
+              <p class="project__description" data-i18n="projects.p3.description">
+                
               </p>
 
-              <h4 class="project__subtitle">Enfoque:</h4>
+              <h4 class="project__subtitle" data-i18n="projects.p3.subtitle">Enfoque:</h4>
               <ul class="project__learnings">
-                <li>Tipografía legible</li>
-                <li>Espaciado correcto</li>
-                <li>Jerarquía visual</li>
-                <li>Colores accesibles</li>
-                <li>Layout de contenido</li>
+                <li data-i18n="projects.p3.learnings.0">Diseño responsivo</li>
+                <li data-i18n="projects.p3.learnings.1">Espaciado correcto</li>
+                <li data-i18n="projects.p3.learnings.2">Jerarquía visual</li>
+                <li data-i18n="projects.p3.learnings.3">Colores accesibles</li>
+                <li data-i18n="projects.p3.learnings.4">Layout de contenido</li>
               </ul>
 
               <div class="project__technologies">
                 <span class="tag">HTML5</span>
                 <span class="tag">CSS3</span>
-                <span class="tag">Tipografía</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Netlify</span>
               </div>
 
               <div class="project__links">
-                <a href="#" class="project__link">Ver proyecto</a>
-                <a href="#" class="project__link">Ver código</a>
+                <a href="https://calculatorjesusmoreno.netlify.app/" target="_blank" class="project__link" data-i18n="projects.project_links.view_project">Ver proyecto</a>
+                <a href="https://github.com/Morenomdev/Calculator?tab=readme-ov-file" target="_blank" class="project__link" data-i18n="projects.project_links.view_code">Ver código</a>
+              </div>
+            </article>
+            <article class="project">
+              <h3 class="project__title" data-i18n="projects.p4.title">Pokedex</h3>
+              <p class="project__description" data-i18n="projects.p4.description">
+                
+              </p>
+
+              <h4 class="project__subtitle" data-i18n="projects.p4.subtitle">Enfoque:</h4>
+              <ul class="project__learnings">
+                <li data-i18n="projects.p4.learnings.0">Diseño responsivo</li>
+                <li data-i18n="projects.p4.learnings.1">Espaciado correcto</li>
+                <li data-i18n="projects.p4.learnings.2">Desplegada en Vercel</li>
+                <li data-i18n="projects.p4.learnings.3">Colores accesibles</li>
+              </ul>
+
+              <div class="project__technologies">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Vercel</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">API</span>
+              </div>
+
+              <div class="project__links">
+                <a href="https://calculatorjesusmoreno.netlify.app/" target="_blank" class="project__link" data-i18n="projects.project_links.view_project">Ver proyecto</a>
+                <a href="https://github.com/Morenomdev/Calculator?tab=readme-ov-file" target="_blank" class="project__link" data-i18n="projects.project_links.view_code">Ver código</a>
               </div>
             </article>
           </div>
         </div>
       </section>
 
-      <!-- Habilidades
-      <section class="skills" id="habilidades">
-        <div class="skills__container">
-          <h2 class="skills__title">Mis Habilidades</h2>
-
-          <h3 class="skills__subtitle">Tecnologías que estoy aprendiendo</h3>
-
-          <div class="skills__list">
-            <div class="skill">
-              <h4 class="skill__name">HTML5 & Semántica</h4>
-              <div class="skill__bar">
-                <div class="skill__progress skill__progress--html"></div>
-              </div>
-              <span class="skill__percentage">75%</span>
-            </div>
-
-            <div class="skill">
-              <h4 class="skill__name">CSS3 & Diseño</h4>
-              <div class="skill__bar">
-                <div class="skill__progress skill__progress--css"></div>
-              </div>
-              <span class="skill__percentage">60%</span>
-            </div>
-
-            <div class="skill">
-              <h4 class="skill__name">JavaScript (Comenzando)</h4>
-              <div class="skill__bar">
-                <div class="skill__progress skill__progress--js"></div>
-              </div>
-              <span class="skill__percentage">20%</span>
-            </div>
-          </div>
-        </div>
-      </section> -->
-
       <!-- Contacto -->
       <section class="contact" id="contacto">
         <div class="contact__container">
-          <h2 class="contact__title">¿Te gustaría conectar?</h2>
-          <p class="contact__description">
+          <h2 class="contact__title" data-i18n="contact.title">¿Te gustaría conectar?</h2>
+          <p class="contact__description" data-i18n="contact.description">
             Siempre estoy buscando aprender de otros desarrolladores, compartir
             experiencias y tal vez colaborar en proyectos interesantes.
           </p>
 
           <div class="contact__methods">
             <div class="contact__method">
-              <h3 class="contact__method-title">📧 Email</h3>
+              <h3 class="contact__method-title">📧 <span data-i18n="contact.email_title">Email</span></h3>
               <a
                 href="mailto:eduardomoreno2038@gmail.com"
                 class="contact__link"
@@ -311,22 +317,22 @@
             </div>
 
             <div class="contact__method">
-              <h3 class="contact__method-title">💻 GitHub</h3>
+              <h3 class="contact__method-title">💻 <span data-i18n="contact.github_title">GitHub</span></h3>
               <a href="https://github.com/Morenomdev" class="contact__link">
                 @Morenomdev
               </a>
             </div>
 
             <div class="contact__method">
-              <h3 class="contact__method-title">💼 LinkedIn</h3>
+              <h3 class="contact__method-title">💼 <span data-i18n="contact.linkedin_title">LinkedIn</span></h3>
               <a href="https://linkedin.com/in/jmorenodv" class="contact__link">
                 /in/jesus-moreno
               </a>
             </div>
           </div>
 
-          <a href="#" class="button button--primary button--large">
-            📄 Descargar CV (PDF)
+          <a href="https://drive.google.com/uc?export=download&id=1vopTibpTz6YdW0bKIa9CiJmszlOjyWHr" target="_blank" class="button button--primary button--large">
+            📄 <span data-i18n="contact.download_cv">Descargar CV (PDF)</span>
           </a>
         </div>
       </section>
@@ -336,19 +342,20 @@
     <footer class="footer">
       <div class="footer__container">
         <nav class="footer__nav">
-          <a href="#inicio" class="footer__link">Inicio</a>
-          <a href="#sobre-mi" class="footer__link">Sobre mí</a>
-          <a href="#proyectos" class="footer__link">Proyectos</a>
-          <a href="#habilidades" class="footer__link">Habilidades</a>
-          <a href="#contacto" class="footer__link">Contacto</a>
+          <a href="#inicio" class="footer__link" data-i18n="footer.nav_home">Inicio</a>
+          <a href="#sobre-mi" class="footer__link" data-i18n="footer.nav_about">Sobre mí</a>
+          <a href="#proyectos" class="footer__link" data-i18n="footer.nav_projects">Proyectos</a>
+          <a href="#habilidades" class="footer__link" data-i18n="footer.nav_skills">Habilidades</a>
+          <a href="#contacto" class="footer__link" data-i18n="footer.nav_contact">Contacto</a>
         </nav>
 
-        <p class="footer__copyright">
+        <p class="footer__copyright" data-i18n="footer.copyright">
           © 2025 Jesus Moreno - Portfolio Personal
         </p>
 
         <p class="footer__credits"></p>
       </div>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
