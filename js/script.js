@@ -15,16 +15,16 @@ function stickyNav() {
   }
 }
 window.addEventListener('scroll', stickyNav)
-window.addEventListener('scroll', () => {
-  let section = document.querySelector('#sobre-mi');
-  if(!section) return
+// window.addEventListener('scroll', () => {
+//   let section = document.querySelector('#sobre-mi');
+//   if(!section) return
 
-  const rect = section.getBoundingClientRect()
-  if (rect.top <= 1000) {
-        console.log("Passed the target element!");
+//   const rect = section.getBoundingClientRect()
+//   if (rect.top <= 1000) {
+//         console.log("Passed the target element!");
         
-  }
-})
+//   }
+// })
 
 window.addEventListener('scroll', function() {
   console.log(window.pageYOffset + 'px');

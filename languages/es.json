@@ -114,6 +114,16 @@
           "Desplegada en Vercel",
           "Colores accesibles"
         ]
+      },
+      "p5": {
+        "title": "Mokepon - Multiplayer",
+        "description": "Juego parecido a Pokemon multiplayer con diferentes pantallas.",
+        "subtitle": "Enfoque:",
+        "learnings": [
+          "Diseño responsivo",
+          "Manipulación de DOM",
+          "Desplegada en Render"
+        ]
       }
     },
     "contact": {
