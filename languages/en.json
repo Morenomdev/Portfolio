@@ -110,7 +110,7 @@
         "learnings": [
           "Responsive design",
           "Proper spacing",
-          "Deployed on vercel",
+          "Deployed on Vercel",
           "Accessible colors"
         ]
       },
@@ -120,9 +120,8 @@
         "subtitle": "Focus:",
         "learnings": [
           "Responsive design",
-          "Proper spacing",
-          "Deployed on vercel",
-          "Accessible colors"
+          "DOM manipulation",
+          "Deployed on Render"
         ]
       }
     },
