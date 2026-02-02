@@ -125,6 +125,10 @@
         ]
       }
     },
+    "techs": {
+      "title": "Technologies",
+      "description": "Technologies that I used in my projects."
+    },
     "contact": {
       "title": "Would you like to connect?",
       "description": "I'm always looking to learn from other developers, share experiences, and maybe collaborate on interesting projects.",
