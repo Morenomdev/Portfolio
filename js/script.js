@@ -18,7 +18,7 @@ window.addEventListener('scroll', stickyNav)
 
 
 window.addEventListener('scroll', function() {
-  console.log(window.pageYOffset + 'px');
+  // console.log(window.pageYOffset + 'px');
 });
 
 function changeColor() {
