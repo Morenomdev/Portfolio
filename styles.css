@@ -137,6 +137,30 @@ em {
   font-style: italic;
 }
 
+
+/* TO TOP BUTTON */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: var(--color-primary-dark);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: var(--radius-md);
+  max-width: 4rem;
+}
+
+#myBtn:hover {
+  background-color: var(--color-secondary-dark);
+}
+
+
 /* ===========================================
      ENLACES
      =========================================== */
