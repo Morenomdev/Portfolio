@@ -137,7 +137,6 @@ em {
   font-style: italic;
 }
 
-
 /* TO TOP BUTTON */
 #myBtn {
   display: none;
@@ -149,7 +148,7 @@ em {
   border: none;
   outline: none;
   background-color: var(--color-primary-dark);
-  color: white;
+  color: var(--color-light);
   cursor: pointer;
   padding: 15px;
   border-radius: var(--radius-md);
@@ -159,7 +158,6 @@ em {
 #myBtn:hover {
   background-color: var(--color-secondary-dark);
 }
-
 
 /* ===========================================
      ENLACES
@@ -533,6 +531,8 @@ ul {
      =========================================== */
 .values {
   margin-top: 3rem;
+  background: linear-gradient(135deg, #f9fafb 0%, #ede9fe 100%);
+  padding: 2rem;
 }
 
 .values__title {
@@ -724,7 +724,6 @@ ul {
   margin: 10px;
   transform: scale(1);
   transition: transform 0.3s ease-in-out;
-  
 }
 
 .tech:hover {
@@ -1474,20 +1473,31 @@ header.header-sticky {
   }
 
   .header {
-    padding: 16px 0;
+    padding: 5px 0 0 0;
+  }
+
+  .header__container {
+    gap: 0;
+    padding: 0;
+  }
+
+  .header-sticky {
+    max-width: 430px;
   }
 
   section {
-    padding: 32px 0;
+    padding: 1rem 0;
   }
 
   /* HEADER MÓVIL */
   .header__name {
     font-size: 1.75rem; /* 28px */
+    margin-bottom: 0;
   }
 
   .header__tagline {
     font-size: 0.75rem; /* 12px */
+    margin-bottom: 0;
   }
 
   .nav__list {
@@ -1496,13 +1506,17 @@ header.header-sticky {
 
   .nav__link {
     font-size: 0.875rem; /* 14px */
-    padding: 6px 10px;
+    padding: 6px;
   }
 
   /* HERO MÓVIL */
   .hero {
     min-height: 500px;
     padding: 48px 0;
+  }
+
+  .hero__container {
+    gap: 0.7rem;
   }
 
   .hero__title {
@@ -1522,6 +1536,7 @@ header.header-sticky {
     flex-direction: column;
     width: 100%;
     padding: 0 20px;
+    margin-bottom: 10px;
   }
 
   .button {
@@ -1530,17 +1545,29 @@ header.header-sticky {
   }
 
   .hero__stats {
-    flex-direction: column;
+    flex-direction: row;
     gap: 1.5rem;
   }
 
   .stat__number {
-    font-size: 2rem; /* 32px */
+    font-size: 1.5rem; /* 32px */
+  }
+
+  .stat__label {
+    text-align: center;
   }
 
   /* ABOUT MÓVIL */
   .about__intro {
     font-size: 1.125rem; /* 18px */
+  }
+
+  .about__experience {
+    gap: 0.7rem;
+  }
+
+  .about__container {
+    padding: 1rem;
   }
 
   .quote {
@@ -1553,16 +1580,41 @@ header.header-sticky {
   }
 
   /* PROJECTS MÓVIL */
+
+  .projects {
+    padding: 1rem;
+  }
+
+  .projects__grid {
+    padding: 0;
+    gap: 1.5rem;
+  }
+
   .project {
-    padding: 1.5rem;
+    padding: 1.2rem;
   }
 
   .project__title {
+    margin-top: 5px;
     font-size: 1.5rem; /* 24px */
+  }
+
+  .project__links {
+    text-align: center;
+  }
+
+  .project__subtitle, .project__learnings {
+    display: none;
   }
 
   .learning__list {
     grid-template-columns: 1fr;
+  }
+
+  /* VALUES MOVIL  */
+  .values {
+    background: linear-gradient(135deg, #f9fafb 0%, #ede9fe 100%);
+    padding: 2rem;
   }
 
   /* CONTACT MÓVIL */
@@ -1599,6 +1651,29 @@ header.header-sticky {
 
   p {
     margin-bottom: 1rem;
+  }
+
+  .techs__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tech {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .tech__icon {
+    width: 3rem;
+  }
+
+  .tech__title {
+    font-size: 0.8rem;
+  }
+
+  .lang__btn {
+    padding: 4px;
+    margin: 5px;
+    font-size: 1rem;
   }
 }
 
