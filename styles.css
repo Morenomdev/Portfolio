@@ -1581,6 +1581,18 @@ header.header-sticky {
 
   /* PROJECTS MÓVIL */
 
+  #myBtn {
+    padding: 5px;
+    width: 3rem;
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+
+  .toTop {
+    /* padding: 5px; */
+    width: 70%;
+  }
+
   .projects {
     padding: 1rem;
   }
@@ -1603,7 +1615,8 @@ header.header-sticky {
     text-align: center;
   }
 
-  .project__subtitle, .project__learnings {
+  .project__subtitle,
+  .project__learnings {
     display: none;
   }
 
