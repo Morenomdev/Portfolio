@@ -40,22 +40,18 @@
 
 Acabo de desplegar mi sitio personal donde cuento más sobre mis proyectos y mi trayectoria.
 
-
-<<<<<<< HEAD
  **[ https://jesusmoreno.vercel.app/ ](https://jesusmoreno.vercel.app/)**
-=======
+
 👉 **[ www.jesusmoreno.com ](https://jesusmoreno.vercel.app/)**
->>>>>>> 7b4b30bbfc2b7d81b08451dee8ba41408b45abdb
 
 ---
 
 ###  Project Preview
 
 [![Portfolio Preview](./img/preview.png)](https://jesusmoreno.vercel.app/)
-<<<<<<< HEAD
+
 =======
 *Click on the image to visit the live site*
->>>>>>> 7b4b30bbfc2b7d81b08451dee8ba41408b45abdb
 ---
 
 ###  Conectemos
